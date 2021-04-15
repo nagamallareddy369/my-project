@@ -29,7 +29,7 @@ jobs:
       run: ./gradlew build
 
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v1
+      uses: mr-smithers-excellent/docker-build-push
       with:
         image: nagamallareddy/demo-app
         registry: docker.io
